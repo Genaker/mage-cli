@@ -1,0 +1,23 @@
+{
+    "name": "mage/cli",
+    "description": "Magento 2 module to load psysh console",
+    "require": {
+        "psy/psysh": "^0.12"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "psr-4": {
+            "Mage\\Cli\\": ""
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "ln -sf ./vendor/bin/psysh ./bin/psysh"
+        ],
+        "post-update-cmd": [
+            "ln -sf ./vendor/bin/psysh ./bin/psysh"
+        ]
+    },
+    "version": "1.0.11",
+    "minimum-stability": "stable"
+}
