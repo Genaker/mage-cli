@@ -1,5 +1,5 @@
 <?php
-/// copy file to .psysh folder
+/// copy code to .psysh.php
 require_once "app/bootstrap.php";
 
 use Mage\DB2\DB2;
