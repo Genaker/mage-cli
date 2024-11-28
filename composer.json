@@ -10,14 +10,6 @@
             "Mage\\Cli\\": ""
         }
     },
-    "scripts": {
-        "post-install-cmd": [
-            "ln -sf ./vendor/bin/psysh ./bin/psysh"
-        ],
-        "post-update-cmd": [
-            "ln -sf ./vendor/bin/psysh ./bin/psysh"
-        ]
-    },
     "version": "1.0.11",
     "minimum-stability": "stable"
 }
