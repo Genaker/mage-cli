@@ -12,10 +12,10 @@ To bottstrap magento:
 vendor/bin/psysh -c 'require_once "app/bootstrap.php"; $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER); $om = $bootstrap->getObjectManager();'
 
 ```
-or insert first Command:
+Or insert first Command:
 ```require_once "app/bootstrap.php"; $bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER); $om = $bootstrap->getObjectManager();```
 
-PsySH can be configured to automatically execute a script when it starts. You'll need to add the script path to the ~/.psysh/psysh.php configuration file.
+PsySH can be configured to automatically execute a script when it starts. You'll need to add the script to the ./psysh.php magento root configuration file.
 ```
 // ~/.psysh/psysh.php
 
